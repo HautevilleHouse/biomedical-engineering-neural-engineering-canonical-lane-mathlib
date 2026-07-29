@@ -1,0 +1,18 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.BiomedicalEngineeringNeuralEngineeringCanonicalLaneLean.AdmissibleClass
+import HautevilleHouse.BiomedicalEngineeringNeuralEngineeringCanonicalLaneLean.BridgeGateLemmas
+import HautevilleHouse.BiomedicalEngineeringNeuralEngineeringCanonicalLaneLean.CompartmentModels
+
+namespace HautevilleHouse
+namespace BiomedicalEngineeringNeuralEngineeringCanonicalLaneLean
+
+def ConstrainedBiomedicalEngineeringNeuralEngineeringClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_biomedical_engineering_neural_engineering_endgame
+    (A : AdmissibleClass) :
+    ConstrainedBiomedicalEngineeringNeuralEngineeringClosure A :=
+  And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end BiomedicalEngineeringNeuralEngineeringCanonicalLaneLean
+end HautevilleHouse
